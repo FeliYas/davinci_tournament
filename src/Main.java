@@ -19,6 +19,8 @@ public class Main {
 
         Team profesPoo = new Team("Profes POO");
         Team estudiantesPoo = new Team("Estudiantes POO");
+
+        primerParcial.setLocalGoalCounter();
     }
 
 

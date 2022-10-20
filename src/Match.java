@@ -19,6 +19,8 @@ public class Match {
         this.setLocalGoalCounter(0);
         this.setVisitantGoalCounter(0);
     }
+   Match(String)
+
 
     public void setLocation(String location){
         this.location = location;

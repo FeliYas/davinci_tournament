@@ -6,7 +6,7 @@ public class Team {
 
 
 Team(String name){
-    this.setName(name);
+    this.setName(name+);
 
 }
     public void setName(String name){

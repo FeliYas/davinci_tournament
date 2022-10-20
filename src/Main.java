@@ -3,7 +3,7 @@ import java.util.Date;
 public class Main {
     public static void main(String[] args)  {
         System.out.println("Da Vinci Tournament");
-        Date comienzoDeCursada = new Date();
+        Date comienzoDeCursada = new Date(2022, 7, 18);
         comienzoDeCursada.setYear(2022);
         comienzoDeCursada.setMonth(7); //Enero 0, Agosto 7
         comienzoDeCursada.setDate(18);
@@ -17,6 +17,6 @@ public class Main {
 
     }
 
-
+    Match PrimerParcial = new Match();
 
 }

@@ -17,6 +17,8 @@ public class Main {
 
         Match primerParcial = new Match("Aula 116", fechaParcial);
 
+        Team profesPoo = new Team("Profes POO");
+        Team estudiantesPoo = new Team("Estudiantes POO");
     }
 
 

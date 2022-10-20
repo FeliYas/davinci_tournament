@@ -12,11 +12,14 @@ public class Main {
         finDeCursada.setYear(2022);
         finDeCursada.setMonth(11); //Enero 0, Dic 11
         finDeCursada.setDate(5);
-
+        Date fechaParcial = new Date(2022,7,18);
         Season torneoDaVinci = new Season("Torneo 2022, 2do cuatri", comienzoDeCursada, finDeCursada);
+
+        Match primerParcial = new Match("Aula 116", fechaParcial);
 
     }
 
-    Match PrimerParcial = new Match();
+
+
 
 }

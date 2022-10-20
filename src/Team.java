@@ -6,8 +6,8 @@ public class Team {
 
 
 Team(String name){
-    this.setName(name+);
-
+    this.setName(name);
+    this.setPlayers(new ArrayList<Player>());
 }
     public void setName(String name){
         this.name = name;
@@ -19,6 +19,10 @@ Team(String name){
     }
 
     public void addPlayer(Player player){
-        //this.players.add(player);
+        this.players.add(player);
+    }
+
+    public void setPlayers(ArrayList<Player> players) {
+        this.players = players;
     }
 }

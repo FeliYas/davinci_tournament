@@ -37,7 +37,7 @@ public class Main {
         profesPoo.addPlayer(profeToro);
         profesPoo.addPlayer(profeMessi);
 
-        
+
         Team estudiantesPoo = new Team("Estudiantes POO");
         estudiantesPoo.addPlayer(estudianteThiago);
         estudiantesPoo.addPlayer(estudianteFeli);
@@ -48,6 +48,8 @@ public class Main {
 
         primerParcial.setLocalGoalCounter(0);
         primerParcial.setVisitantGoalCounter(0);
+
+        System.out.println(primerParcial.generateMarker());
     }
 
 

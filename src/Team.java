@@ -20,6 +20,7 @@ Team(String name){
 
     public void addPlayer(Player player){
         this.players.add(player);
+        player.setTeam(this);
     }
 
     public void setPlayers(ArrayList<Player> players) {

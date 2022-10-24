@@ -3,6 +3,7 @@ public class Player {
         private String position;
         private int goalCounter;
         private int matchCounter;
+        private Team team;
 
         Player (String name){
             this.setName(name);
@@ -63,6 +64,13 @@ public class Player {
             this.matchCounter++;
         }
 
+    public Team getTeam() {
+        return team;
     }
+
+    public void setTeam(Team team) {
+        this.team = team;
+    }
+}
 
 

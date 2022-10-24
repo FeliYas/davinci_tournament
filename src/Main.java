@@ -18,11 +18,11 @@ public class Main {
         Match primerParcial = new Match("Aula 116", fechaParcial);
 
         Player profeSergio = new Player("sergio mediana", "aguatero");
-        Player estduianteThiago = new Player("sthiaho", "aguatero");
+        Player estudianteThiago = new Player("sthiaho", "aguatero");
 
         Team profesPoo = new Team("Profes POO");
         profesPoo.addPlayer(profeSergio);
-        profesPoo.addPlayer(estduianteThiago);
+        profesPoo.addPlayer(estudianteThiago);
 
         Team estudiantesPoo = new Team("Estudiantes POO");
 

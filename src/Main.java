@@ -17,14 +17,34 @@ public class Main {
 
         Match primerParcial = new Match("Aula 116", fechaParcial);
 
-        Player profeSergio = new Player("sergio mediana", "aguatero");
-        Player estudianteThiago = new Player("sthiaho", "aguatero");
+        Player profeSergio = new Player("sergio mediana", "arquero");
+        Player estudianteThiago = new Player("sthiaho daun", "arquero");
+        Player profeAgus = new Player("agus orosa", "defensor");
+        Player profeSilvio = new Player("silvio salvio", "defensor");
+        Player profeToro = new Player("vino toro", "medio");
+        Player profeMessi = new Player("lio messi", "delantero");
+        Player estudianteFeli = new Player("feli yas", "defensor");
+        Player estudianteLucho = new Player("lucho cerru", "defensor");
+        Player estudianteTute = new Player("jonata cornudo", "medio");
+        Player estudianteDiego = new Player("diego marado", "delantero");
+
+
 
         Team profesPoo = new Team("Profes POO");
         profesPoo.addPlayer(profeSergio);
-        profesPoo.addPlayer(estudianteThiago);
+        profesPoo.addPlayer(profeAgus);
+        profesPoo.addPlayer(profeSilvio);
+        profesPoo.addPlayer(profeToro);
+        profesPoo.addPlayer(profeMessi);
 
+        
         Team estudiantesPoo = new Team("Estudiantes POO");
+        estudiantesPoo.addPlayer(estudianteThiago);
+        estudiantesPoo.addPlayer(estudianteFeli);
+        estudiantesPoo.addPlayer(estudianteLucho);
+        estudiantesPoo.addPlayer(estudianteTute);
+        estudiantesPoo.addPlayer(estudianteDiego);
+
 
         primerParcial.setLocalGoalCounter(0);
         primerParcial.setVisitantGoalCounter(0);

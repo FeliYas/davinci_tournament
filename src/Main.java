@@ -50,6 +50,8 @@ public class Main {
         primerParcial.setVisitantGoalCounter(0);
 
         System.out.println(primerParcial.generateMarker());
+        primerParcial.makegoal(profesPoo, profesPoo.getPlayers().get(0));
+        System.out.println(primerParcial.generateMarker());
     }
 
 

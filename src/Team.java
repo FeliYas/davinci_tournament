@@ -26,4 +26,8 @@ Team(String name){
     public void setPlayers(ArrayList<Player> players) {
         this.players = players;
     }
+
+    public ArrayList<Player> getPlayers() {
+        return players;
+    }
 }

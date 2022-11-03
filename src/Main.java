@@ -46,8 +46,6 @@ public class Main {
         estudiantesPoo.addPlayer(estudianteDiego);
 
 
-        primerParcial.setLocalGoalCounter(0);
-        primerParcial.setVisitantGoalCounter(0);
 
         System.out.println(primerParcial.generateMarker());
         primerParcial.makegoal(profesPoo, profesPoo.getPlayers().get(0));
